@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio Adventure</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://drive.google.com/open?id=1H5rknMnMm9w0wsLFIYbPgNQlpQX6Vtx4&usp=drive_copy">
+</head>
+<body>
+
+<div class="arcade">
+  <div class="screen">
+
+    <h1 class="title">PORTFOLIO<br>ADVENTURE</h1>
+    <p class="subtitle">AS ILLUSTRATOR</p>
+
+    <!-- MENU -->
+    <div class="menu" id="mainMenu">
+      <button onclick="showSection('about')">About Me</button>
+      <button onclick="showSection('portfolio')">Portfolio</button>
+      <button onclick="showSection('contact')">Contact</button>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="section" id="about">
+      <h2>About Me</h2>
+
+      <div class="profile-box">
+    <img src="assets/profile.png" alt="profile photo">
+</div>
+
+      <p class="about-text">
+        Creative Graphic Designer with passion for bold and retro design.
+      </p>
+      
+      <a href="assets/cv.jpg" target="_blank">
+  <button>Download CV</button>
+</a>
+
+<button onclick="backMenu()">Back</button>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div class="section" id="portfolio">
+      <h2>My Works</h2>
+
+      <div class="cards">
+    <div class="card" onclick="window.location.href='https://drive.google.com/drive/folders/13hPQ_RjfI8IjaRWZQxVz5FEBfppgsrap?usp=sharing'">
+        Ilustrasi
+    </div>
+
+    <div class="card" onclick="window.location.href='https://drive.google.com/drive/folders/1HQqYxUUQMuYq9J_XuizNUjpFdrqZYrym?usp=sharing'">
+        Gambar Manual
+    </div>
+
+    <div class="card" onclick="window.location.href='https://drive.google.com/drive/folders/17aquA0EJIfYpKAorxDa--p_nIe1vGsEo?usp=sharing'">
+        Desain Logo
+    </div>
+</div>
+
+      <button onclick="backMenu()">Back</button>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="section" id="contact">
+      <h2>Contact</h2>
+      <p>Email: elisafareena07@email.com</p>
+      <p>Instagram: @elisaphira_</p>
+      <button onclick="backMenu()">Back</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
